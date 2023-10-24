@@ -1,0 +1,7 @@
+alias v="nvim.appimage"
+
+alias gs="git status"
+alias gm="git merge"
+alias gc="git checkout"
+alias gpu="git push"
+alias ga="git add"
