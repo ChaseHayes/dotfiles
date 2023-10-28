@@ -7,5 +7,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-source .alias
-source .function
+SHELL=$(which zsh)
+
+source ~/dev/git/dotfiles/.alias
+source ~/dev/git/dotfiles/.function
