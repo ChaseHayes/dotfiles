@@ -7,7 +7,9 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-SHELL=$(which zsh)
+export SHELL=$(which zsh)
 
 source ~/dev/git/dotfiles/.alias
 source ~/dev/git/dotfiles/.function
+
+[ -z "$TMUX" ] && exec tmux new -As0
