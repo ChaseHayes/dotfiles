@@ -11,5 +11,3 @@ export SHELL=$(which zsh)
 
 source ~/dev/git/dotfiles/.alias
 source ~/dev/git/dotfiles/.function
-
-[ -z "$TMUX" ] && exec tmux new -As0
