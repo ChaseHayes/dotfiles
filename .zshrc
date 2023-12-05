@@ -9,5 +9,11 @@ source $ZSH/oh-my-zsh.sh
 
 export SHELL=$(which zsh)
 
+. "$HOME/.asdf/asdf.sh"
+
+export PATH="$PATH:$HOME/.cargo/bin"
+
+setxkbmap -option ctrl:swapcaps
+
 source ~/dev/git/dotfiles/.alias
 source ~/dev/git/dotfiles/.function
