@@ -13,7 +13,5 @@ export SHELL=$(which zsh)
 
 export PATH="$PATH:$HOME/.cargo/bin"
 
-setxkbmap -option ctrl:swapcaps
-
 source ~/dev/git/dotfiles/.alias
 source ~/dev/git/dotfiles/.function

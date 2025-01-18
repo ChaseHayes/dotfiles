@@ -1,4 +1,4 @@
-alias ls="ls -aF --color"
+alias ls="ls -aFG"
 
 alias gs="git status"
 alias gm="git merge"
