@@ -11,7 +11,7 @@ export SHELL=$(which zsh)
 
 . "$HOME/.asdf/asdf.sh"
 
-export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/.cargo/bin:$HOME/.pub-cache/bin"
 
 source ~/dev/git/dotfiles/.alias
 source ~/dev/git/dotfiles/.function

@@ -1,4 +1,5 @@
 alias ls="ls -aFG"
+alias rg="rg --hidden"
 
 alias gs="git status"
 alias gm="git merge"

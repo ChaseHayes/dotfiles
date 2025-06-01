@@ -1,9 +1,7 @@
-function v() {
-    if command -v -- nvim &> /dev/null; then
-        nvim "$@"
-    fi
+#!/bin/bash
 
-    if command -v -- nvim.appimage &> /dev/null; then
-        nvim.appimage "$@"
-    fi
+function gcamp() {
+    git add .
+    git commit -m '$1'
+    git push
 }
